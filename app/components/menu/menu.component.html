@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img id="logo" src="https://i.postimg.cc/y8j19qhw/logo.png" alt="logo-CafeEtrusca">
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="./">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item">
+            <div class="dropdown">
+                <select class="nav-link custom-select custom-select-sm" id="paraTuNegocioDropdown" onchange="navigateToOption(this)">
+                    <option selected disabled>Para tu negocio</option>
+                    <option value="./opcion1">Insumos</option>
+                    <option value="./opcion2">Café</option>
+                    <option value="./opcion3">Maquinaria</option>
+                    <option value="./opcion4">Accesorios</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="./">Recetario</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="./">Blog</a>
+        </li>
+        <li class="nav-item">
+            <div class="dropdown">
+                <select class="nav-link custom-select custom-select-sm" id="capacitacionDropdown" onchange="navigateToOption(this)">
+                    <option selected disabled>Capacitación</option>
+                    <option value="./opcion1">Formación de emprendedores</option>
+                    <option value="./opcion2">Experiencia sensorial</option>
+                    <!-- Agrega más opciones de capacitación aquí -->
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="./">¿Dónde encontrarnos?</a>
+        </li>
+    </ul>
+</nav>
+
