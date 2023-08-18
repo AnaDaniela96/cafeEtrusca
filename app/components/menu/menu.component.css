@@ -25,3 +25,7 @@
     .custom-select {
         margin-top: 0;
     }
+
+    a{
+        font-weight: bold;
+    }
