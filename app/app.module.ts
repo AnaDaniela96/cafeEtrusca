@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { TerminosYCondicionesComponent } from './pages/terminos-y-condiciones/terminos-y-condiciones.component';
 import { HomeComponent } from './pages/home/home.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+import { PoliticasDeNavegacionComponent } from './pages/politicas-de-navegacion/politicas-de-navegacion.component';
+import { AvisoDePrivacidadComponent } from './pages/politicas-de-navegacion/aviso-de-privacidad/aviso-de-privacidad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     MenuComponent,
-    TerminosYCondicionesComponent,
     HomeComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    PoliticasDeNavegacionComponent,
+    AvisoDePrivacidadComponent
   ],
   imports: [
     BrowserModule,
