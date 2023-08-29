@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { TerminosYCondicionesComponent } from './pages/terminos-y-condiciones/terminos-y-condiciones.component';
 import { HomeComponent } from './pages/home/home.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     MenuComponent,
     TerminosYCondicionesComponent,
-    HomeComponent
+    HomeComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
